@@ -1,7 +1,12 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 nav ul {
     display: flex;
     list-style: none;
-    gap: 1rem;
+    gap: 3rem;
     justify-content: center;
     padding: 1rem;
     background-color: #cf2d2d;
@@ -11,7 +16,7 @@ nav ul {
     text-decoration: none;
     color: black;
     font-weight: bold;
-    color: inherit;
+    font-size: large;
   }
 
   nav a:hover {
@@ -22,3 +27,49 @@ nav ul {
     color: wheat;
     text-decoration: underline;
   }
+
+  .container{
+    display: flex;
+    display: flex;
+    list-style: none;
+    gap: 20rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  
+  .blogg{
+    display: flex;
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+    padding: 1rem;
+  }
+
+  .gridpattern {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+  .box{
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid #a80e0e;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+    list-style: none;
+    margin-bottom: 1.5rem;
+
+  }
+
+/*  .box:hover {
+    transform: scale(1.05);
+  }
+*/
+
+  .matematik  { background-color: rgb(255, 243, 215);}
