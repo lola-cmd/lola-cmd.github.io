@@ -11,5 +11,10 @@ nav ul {
     text-decoration: none;
     color: black;
     font-weight: bold;
+    color: inherit;
+  }
+
+  nav a:hover {
+    color: wheat;
   }
   
