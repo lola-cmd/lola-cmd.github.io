@@ -15,6 +15,10 @@ nav ul {
   }
 
   nav a:hover {
-    color: wheat;
+    font-style: italic;
   }
   
+  nav a:active{
+    color: wheat;
+    text-decoration: underline;
+  }
