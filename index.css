@@ -18,7 +18,7 @@ nav ul {
     font-style: italic;
   }
   
-  nav a:active{
+  nav a.active{
     color: wheat;
     text-decoration: underline;
   }
