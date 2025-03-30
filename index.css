@@ -24,7 +24,7 @@ nav ul {
   }
   
   nav a.active{
-    color: wheat;
+    color: #f5deb3;
     text-decoration: underline;
   }
 
@@ -96,4 +96,8 @@ nav ul {
     object-fit: contain; /*shows entire image, no cutoff*/
     display: block;
     border-radius: 8px;
+  }
+
+  .gradering{
+    background-color: #ff972c;
   }
