@@ -49,7 +49,16 @@ nav ul {
 
   .gridpattern {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 2rem;
+    padding: 1rem;
+  }
+
+
+  .gridpatternA {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 2rem;
     padding: 1rem;
   }
@@ -73,3 +82,18 @@ nav ul {
 */
 
   .matematik  { background-color: rgb(255, 243, 215);}
+
+  .fotogrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  .fotogrid img{
+    height: 500px; /*constant height*/
+    width: auto; /*adapts width so image fit height*/
+    object-fit: contain; /*shows entire image, no cutoff*/
+    display: block;
+    border-radius: 8px;
+  }
