@@ -101,3 +101,19 @@ nav ul {
   .gradering{
     background-color: #ff972c;
   }
+
+  .welcome{
+    background-color: #e5ddaf;
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease;
+    list-style: none;
+    margin-bottom: 1.5rem;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
