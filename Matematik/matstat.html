@@ -73,15 +73,44 @@
             </li>
             <li>
               <h3>2.4</h3>
+              <br>P(F1) = 0.01
+              <br>P(F2) = 0.03
+              <br>P(F1 U F2) = 0.005
               <br><b>Fråga A: åtminstone ett av felen</b>
-              <div class="ekvation"></div>
+              <div class="ekvation">
+                <p>
+                  Additionssatsen
+                  \[
+                  P(F1 \cup F2) = P(F1) + P(F2) - P(F1 \cap F2)
+                  \]
+                </p>
+              </div>
               <br><b>Fråga B: fel F1 men ej fel F2</b>
-              <div class="ekvation"></div>
-                <br><b>Fråga C: precis ett av felen</b>
-              <div class="ekvation"></div>
+              <div class="ekvation">
+                  <p>
+                    \[
+                    P(F1 \cap \neg F2) = P(F1) * P(\neg F2) 
+                    \]
+                  </p>
+              </div>
+
+              <br><b>Fråga C: precis ett av felen</b>
+              <div class="ekvation">
+                \[
+                P(endast en) = P(F1) + P(F2) - 2P(F1 \cap F2) = P(F1 \cap \neg F2 ) + P(\neg F1 \cap F2 )
+                \]
+              </div>
+
                 <br><b>Fråga D: inget av de två felen</b>
-              <div class="ekvation"></div>
+              <div class="ekvation">
+                Komplementsatsen
+                \[
+                P((F1 \cup F2)^c) = 1 - P(F1 \cup F2)
+                \]
+              </div>
             </li>
+
+
             <li>2.10</li>
             <li>2.12</li>
             <li>2.16</li>
