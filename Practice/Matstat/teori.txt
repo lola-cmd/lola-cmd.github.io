@@ -20,3 +20,7 @@ fördelningfunktion, cumulative distribution function
 F_x(x) = P(X <= x)
 F_x(x) är växande 
 användbar räkna på många olika element
+
+
+ffg-fördelningfunktion
+geometrisk fördelning Y = X-1
