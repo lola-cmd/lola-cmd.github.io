@@ -7,13 +7,14 @@
   <script id="MathJax-script" async
     src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
   </script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="../style.css">
 </head>
 <body>
 <div class = "sida">
   <nav class="meny-vertikal">
     <ul>
-      <li><a href="matstat.html">Vecka 1</a></li>
+      <li><a href="matstat.html">Matstat</a></li>
+      <li><a href="vecka1.html">Vecka 1</a></li>
       <li><a href="vecka2.html">Vecka 2</a></li>
       <li><a href="vecka3.html">Vecka 3</a></li>
       <li><a href="vecka4.html">Vecka 4</a></li>
@@ -22,111 +23,54 @@
       <li><a href="vecka7.html">Vecka 7</a></li>
     </ul>
   </nav>
-  <section class ="lasvecka">
-        <h2>Vecka 1</h2>
-        <ul class = "uppgifter">
-            <li>2.1</li>
-            <li class = "uppgift">
-              <h4>2.3</h4>
-              P(celiaki befolkningen) = 0.04 
-              <br>P(A) definieras som sannolikheten att A har celiaki.
-              <br>P(B) definieras som sannolikheten att B har celiaki.
-              <br>P(celiaki befolkningen) = P(A) = P(B)
-              <br>Oberoende av varandra. 
 
-              <br>
-              <br><b>Fråga A: sannolikheten att både A och B har celiaki</b>
-              <div class="ekvation">
-                <p>
-                  \[
-                  P(A \cap B) = P(A) * P(B) 
-                  \]
-                </p>
+<div class ="teori"><h3>Teori och formler</h3>
+  Oberoende 
+  Oförenlig
+  Många slumpmässiga saker är kopplade till tal
+  <div class="ekvation">
+    <p>
+      \[
+      P(A_1 \cap ... \cap A_n ) = P(A_1) * ... * P(A_n) 
+      \]
+    </p>
 
+</div>
+<b>Alla</b> 4 tärningar är 3:or
+<div class="ekvation">
+  <p>
+    \[
+    A_i = tärning nr i är 3
+    = P(A_1 \cap A_2 \cap A_3 \cap A_4) Oberoende
+    = (1/6)^4
+    \]
+  </p>
 
-              </div>
-              <br><b>Fråga B: minst en av dem har celiaki</b>
-              <div class="ekvation">
-                <p>
-                  Additionssatsen
-                  \[
-                  P(A \cup B) = P(A) + P(B) - P(A \cap B)
-                  \]
-                </p>
-              </div>
-              <br><b>Fråga C: ingen av dem har celiaki</b>
-              <div class="ekvation">
-                <p>
-                  Komplementsatsen
-                  \[
-                  P((A \cup B)^c) = 1 - P(A \cup B)
-                  \]
-                </p></div>
-              <br><b>Fråga D: precis en av dem har celiaki</b>
-              <div class="ekvation">
-                <p>
-                  \[
-                  P(endast en) = P(A) + P(B) - 2P(A \cap B) = P(A \cap \neg B ) + P(\neg A \cap B )
-                  \]
-                </p>
-              </div>
-            </li>
-            <li>
-              <h3>2.4</h3>
-              <br>P(F1) = 0.01
-              <br>P(F2) = 0.03
-              <br>P(F1 U F2) = 0.005
-              <br><b>Fråga A: åtminstone ett av felen</b>
-              <div class="ekvation">
-                <p>
-                  Additionssatsen
-                  \[
-                  P(F1 \cup F2) = P(F1) + P(F2) - P(F1 \cap F2)
-                  \]
-                </p>
-              </div>
-              <br><b>Fråga B: fel F1 men ej fel F2</b>
-              <div class="ekvation">
-                  <p>
-                    \[
-                    P(F1 \cap \neg F2) = P(F1) * P(\neg F2) 
-                    \]
-                  </p>
-              </div>
-
-              <br><b>Fråga C: precis ett av felen</b>
-              <div class="ekvation">
-                \[
-                P(endast en) = P(F1) + P(F2) - 2P(F1 \cap F2) = P(F1 \cap \neg F2 ) + P(\neg F1 \cap F2 )
-                \]
-              </div>
-
-                <br><b>Fråga D: inget av de två felen</b>
-              <div class="ekvation">
-                Komplementsatsen
-                \[
-                P((F1 \cup F2)^c) = 1 - P(F1 \cup F2)
-                \]
-              </div>
-            </li>
-
-
-            <li>2.10</li>
-            <li>2.12</li>
-            <li>2.16</li>
-            <li>2.18</li>
-            <li>2.19</li>
-            <li>2.26</li>
-            <li>2.27</li>
-            <li>2.28</li>
-            <li>2.30</li>
-            <li>2.35</li>
-            <li>2.36</li>
-        </ul>
-  </section>
 </div>
 
-<div class ="teori"><h3>Teori och formler</h3></div>
+<b>Inga</b> femmor
+
+<div class="ekvation">
+  <p>
+    \[
+    = P(B_1^c \cap B_2^c \cap B_3^c \cap B_4^c) 
+    = (1-1/6)^4
+    \]
+  </p>
+
+</div>
+
+Minst en udda (<b>Någon</b> udda)
+<div class="ekvation">
+  <p>
+    \[
+    1-P(ingen udda)
+    = 1-(1-1/2)^4
+    \]
+  </p>
+
+</div>
+</div>
 
 
 </body>

@@ -1,0 +1,22 @@
+Oberoende
+Bayes Sats
+
+Alla, ingen, någon
+
+Stokastisk variabel/ slumpvariabel, tals vars värde styrs av slumpen
+vännman beteckning, alla andra betckning 
+
+Diskret stokastisk variabel - om den kan anta ett ändligt antal värden eller ett upppräklningen oändligt antal värden, typiskt icke negativa tals
+Kontinuerlig stokastisk variabel - kan anta alla reella tal i ett intervall
+
+om vi jämför en stokastisk variabel med tal får vi en händelse 
+
+disret s.v. X definieras sannolikhetsfunktionen som
+
+P_x(k) = P(X = k)
+probability density function 
+
+fördelningfunktion, cumulative distribution function 
+F_x(x) = P(X <= x)
+F_x(x) är växande 
+användbar räkna på många olika element
