@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8">
+  <title>Internetprotokoll - uppgifter</title>
+  <link rel="stylesheet" href="../../style.css">
+</head>
+<body>
+<div class = "sida">
+  <nav class="meny-vertikal">
+    <ul>
+      <li><a href="internetprotokoll.html">Tillbaka</a></li>
+      <li><a href="Tutorial1.html">Tutorial 1</a></li>
+      <li><a href="Tutorial2.html">Tutorial 2</a></li>
+      <li><a href="Tutorial3.html">Tutorial 3</a></li>
+      <li><a href="Tutorial4.html">Tutorial 4</a></li>
+
+    </ul>
+  </nav>
+  <section class ="kapitel">
+    <h3>Transport layer</h3>
+        <ul class = "uppgifter">
+          <li class = "uppgift">
+            <br>R3. Source port is the sending application. Destination port is the recieving app. 
+            <br> So, if source port = x and destination port = y from Host A to Host B, 
+            <br>then source port = y and destination port = x from Host B to Host A.
+        </li>
+        <li class = "uppgift">
+          <br>R4. Describe why an application developer might choose to run an application over UDP rather than TCP.
+      </li>
+
+      <li class = "uppgift">
+        <br>R5. Why is it that voice and video traffic is often sent over TCP rather than UDP in today’s Internet?
+        (Hint: The answer we are looking for has nothing to do with TCP’s congestion-control mechanism.)
+    </li>
+
+    <li class = "uppgift">
+      <br>R6. Is it possible for an application to enjoy reliable data transfer even when the application runs over UDP? 
+      If so, how?
+  </li>
+
+  <li class = "uppgift">
+    <br>R7. Suppose a process in Host C has a UDP socket with port number 6789.
+    Suppose both Host A and Host B each send a UDP segment to Host C with destination port number 6789.
+     Will both of these segments be directed to the same socket at Host C?
+      If so, how will the process at Host C know that these two segments originated from two different hosts?
+</li>
+
+<li class = "uppgift">
+  <br>R8. Suppose that a Web server runs in Host C on port 80. Suppose this Web server uses persistent connections, 
+  and is currently receiving requests from two different Hosts, A and B. Are all of the requests being sent through 
+  the same socket at Host C? If they are being passed through different sockets, do both of the sockets have port 80? 
+  Discuss and explain.
+</li>
+
+
+
+            R14, R15: TCP
+            P1: UDP/TCP ports
+            P4: Checksum
+            P14: NAK
+            P15: Window size/Channel utilization
+            P26: TCP seq num, transmission time
+            P31: RTT
+            P48: TCP Reno window size, transmission time
+            P55: TCP segment loss
+        </ul>
+  </section>
+</div>
+
+</body>
